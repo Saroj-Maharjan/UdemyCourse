@@ -15,10 +15,11 @@ plugins {
     alias(libs.plugins.sort.dependencies) apply false
     alias(libs.plugins.detekt) apply false
     alias(libs.plugins.kotlinter) apply false
+    alias(libs.plugins.gradle.updater) apply false
 }
 
 apply(from = "buildscripts/githooks.gradle")
-//apply(from = "buildscripts/versionsplugin.gradle")
+apply(from = "buildscripts/versionsplugin.gradle")
 
 subprojects {
     apply(from = "../buildscripts/detekt.gradle")

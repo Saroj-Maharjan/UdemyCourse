@@ -53,6 +53,7 @@ android-test = { id = "com.android.test", version.ref = "androidGradlePlugin" }
 compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 cash-paparazzi = { id = "app.cash.paparazzi", version.ref = "paparazzi" }
 kotlinter = { id = "org.jmailen.kotlinter", version.ref = "kotlinter" }
+gradle-updater = { id = "com.github.ben-manes.versions", version.ref = "gradleVersionsPlugin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 sort-dependencies = { id = "com.squareup.sort-dependencies", version.ref = "sortDependencies" }
 detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detektGradlePlugin" }
