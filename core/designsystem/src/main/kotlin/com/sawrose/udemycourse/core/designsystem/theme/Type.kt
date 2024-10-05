@@ -1,4 +1,4 @@
-package com.sawrose.udemycourse.ui.theme
+package com.sawrose.udemycourse.core.designsystem.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

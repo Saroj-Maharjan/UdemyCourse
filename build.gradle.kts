@@ -22,7 +22,7 @@ apply(from = "buildscripts/githooks.gradle")
 apply(from = "buildscripts/versionsplugin.gradle")
 
 subprojects {
-    apply(from = "../buildscripts/detekt.gradle")
+    apply(from = "$rootDir/buildscripts/detekt.gradle")
     apply(plugin = "com.squareup.sort-dependencies")
     apply(plugin = "org.jmailen.kotlinter")
 }

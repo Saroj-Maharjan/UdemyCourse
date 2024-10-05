@@ -1,6 +1,6 @@
 @file:Suppress("MagicNumber")
 
-package com.sawrose.udemycourse.ui.theme
+package com.sawrose.udemycourse.core.designsystem.theme
 
 import androidx.compose.ui.graphics.Color
 

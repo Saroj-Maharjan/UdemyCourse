@@ -14,3 +14,6 @@
 .cxx
 local.properties
 /build-logic/convention/build/
+/.idea
+/.kotlin/
+/core/designsystem/build
