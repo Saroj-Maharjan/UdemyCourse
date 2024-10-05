@@ -1,4 +1,4 @@
-package com.sawrose.udemycourse.ui.theme
+package com.sawrose.udemycourse.designsystem.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -9,6 +9,14 @@ import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
+import com.sawrose.udemycourse.ui.theme.DarkColorScheme
+import com.sawrose.udemycourse.ui.theme.LightColorScheme
+import com.sawrose.udemycourse.ui.theme.Pink40
+import com.sawrose.udemycourse.ui.theme.Pink80
+import com.sawrose.udemycourse.ui.theme.Purple40
+import com.sawrose.udemycourse.ui.theme.Purple80
+import com.sawrose.udemycourse.ui.theme.PurpleGrey40
+import com.sawrose.udemycourse.ui.theme.PurpleGrey80
 
 private val DarkColorScheme = darkColorScheme(
     primary = Purple80,
@@ -50,7 +58,7 @@ fun UdemyCourseTheme(
 
     MaterialTheme(
         colorScheme = colorScheme,
-        typography = Typography,
+        typography = com.sawrose.udemycourse.ui.theme.Typography,
         content = content,
     )
 }

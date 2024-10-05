@@ -1,7 +1,5 @@
 import com.android.build.api.dsl.LibraryExtension
-import com.android.build.api.variant.LibraryAndroidComponentsExtension
 import com.sawrose.udemycourse.configureKotlinAndroid
-import com.sawrose.udemycourse.libs
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.configure
@@ -14,7 +12,6 @@ class AndroidLibraryConventionPlugin : Plugin<Project> {
             with(pluginManager) {
                 apply("com.android.library")
                 apply("org.jetbrains.kotlin.android")
-                apply("nowinandroid.android.lint")
             }
 
             extensions.configure<LibraryExtension> {
