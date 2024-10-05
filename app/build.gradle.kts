@@ -41,16 +41,15 @@ android {
 }
 
 dependencies {
-    implementation(projects.designsystem)
-
-    implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.activity.compose)
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.ui)
     implementation(libs.androidx.ui.graphics)
-    debugImplementation(libs.androidx.ui.test.manifest)
+    implementation(projects.core.designsystem)
 
-    implementation(libs.androidx.lifecycle.runtime.ktx)
+    debugImplementation(libs.androidx.ui.test.manifest)
 
     testImplementation(libs.junit)
 

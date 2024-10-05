@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.sawrose.udemycourse.designsystem"
+    namespace = "com.sawrose.udemycourse.core.designsystem"
 }
 
 dependencies {

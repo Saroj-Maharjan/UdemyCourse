@@ -18,4 +18,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "UdemyCourse"
 include(":app")
-include(":designsystem")
+
+include(
+    ":core:designsystem",
+)

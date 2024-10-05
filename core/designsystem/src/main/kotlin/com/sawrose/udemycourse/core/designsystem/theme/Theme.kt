@@ -1,4 +1,4 @@
-package com.sawrose.udemycourse.designsystem.theme
+package com.sawrose.udemycourse.core.designsystem.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
