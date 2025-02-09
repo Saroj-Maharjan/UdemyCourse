@@ -1,7 +1,7 @@
 [versions]
 androidGradlePlugin = "8.7.0"
 androidTools = "31.7.0"
-androidDesugarJdkLibs = "2.1.2"
+androidDesugarJdkLibs = "2.1.4"
 kotlin = "2.0.20"
 coreKtx = "1.13.1"
 junit = "4.13.2"
